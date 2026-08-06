@@ -1,0 +1,32 @@
+.highlights{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+}
+.box{
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: rgb(180, 205, 228);
+    box-shadow: 2px 2px 8px lightgray;
+    margin-right:100px;
+}
+.box h2{
+    margin: 0;
+    color: black;
+}
+.box p{
+    margin-top: 5px;
+    color: gray;
+}
+marquee{
+    background:rgb(2, 2, 131);
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
