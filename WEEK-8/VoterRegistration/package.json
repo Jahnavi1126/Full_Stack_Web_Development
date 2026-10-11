@@ -1,0 +1,16 @@
+{
+  "name": "voterregistration",
+  "version": "1.0.0",
+  "description": "Voter Registration System using Node.js and Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

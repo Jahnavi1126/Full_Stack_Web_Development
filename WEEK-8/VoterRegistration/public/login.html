@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Voter Login</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Voter Registration System</h1>
+
+    <nav>
+
+        <a href="/">Home</a>
+
+        <a href="/register">Register</a>
+
+        <a href="/login">Login</a>
+
+    </nav>
+
+</header>
+
+
+<main class="form-container">
+
+    <div class="form-card login-card">
+
+        <h2>Voter Login</h2>
+
+        <p class="form-description">
+            Login to view your voter dashboard.
+        </p>
+
+
+        <form id="loginForm">
+
+            <label>Username</label>
+
+            <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder="Enter username"
+                required
+            >
+
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                required
+            >
+
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+
+        <p id="loginMessage"></p>
+
+
+        <p class="bottom-text">
+            Don't have an account?
+            <a href="/register">Register here</a>
+        </p>
+
+    </div>
+
+</main>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
